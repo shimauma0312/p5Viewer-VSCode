@@ -13,6 +13,39 @@ p5viewer is a Visual Studio Code extension that allows you to preview p5.js sket
 - **Node.js**: This extension uses a Node.js HTTP server to serve the p5.js sketches.
 - **Visual Studio Code**: This extension requires Visual Studio Code to be installed.
 
+以下のマークダウンをREADMEに追加してください：
+
+## Installation
+
+To get started with the extension, follow these steps:
+
+1. **Install Dependencies**  
+   Run the following command to install the required dependencies:
+   ```bash
+   npm install
+   ```
+
+2. **Compile TypeScript Code**  
+   Compile the TypeScript code using:
+   ```bash
+   npm run compile
+   ```
+
+3. **Install vsce**  
+   Install the `vsce` tool globally:
+   ```bash
+   npm install -g vsce
+   ```
+
+4. **Package the Extension**  
+   Package the extension using `vsce`:
+   ```bash
+   vsce package
+   ```
+
+5. **Install the Extension in VS Code**  
+   After packaging, install the generated `.vsix` file in VS Code. Open the **Extensions** view in VS Code and select **Install from VSIX...**.
+
 ## Known Issues
 
 - **Performance**: Large sketches may cause the preview to be slow.
