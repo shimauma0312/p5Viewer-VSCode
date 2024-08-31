@@ -1,0 +1,33 @@
+# Build directories
+out
+dist
+
+# Node.js dependencies
+node_modules
+
+# VS Code test directories
+.vscode-test/
+
+# Compiled extension package
+*.vsix
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# npm and yarn debug logs
+npm-debug.log*
+yarn-debug.log*
+
+# Ignore all .vscode files
+.vscode/*
+
+# But keep specific files
+!.vscode/settings.json
+!.vscode/extensions.json
